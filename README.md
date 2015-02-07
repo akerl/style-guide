@@ -3,13 +3,13 @@ Ruby Style Guide
 
 Here are some guidelines I try to follow in my Ruby projects. These are all in addition to [The Ruby Style Guide](https://github.com/bbatsov/ruby-style-guide), as enforced by [rubocop](https://github.com/bbatsov/rubocop).
 
-# Naming
+## Naming
 
-## Option hashes
+### Option hashes
 
 When naming hashes used to pass around options or parameters, use the following convention:
 
-### The hash portion of a method's input is "params"
+#### The hash portion of a method's input is "params"
 
 ```
 class Example
@@ -18,7 +18,7 @@ class Example
 end
 ```
 
-### Options stored on the instance are "@options"
+#### Options stored on the instance are "@options"
 
 ```
 class Example
@@ -28,7 +28,7 @@ class Example
 end
 ```
 
-### If you're storing the direct results of a config file, use "@config"
+#### If you're storing the direct results of a config file, use "@config"
 
 ```
 class Example
